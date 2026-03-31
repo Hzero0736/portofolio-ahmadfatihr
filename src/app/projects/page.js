@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 
 const projects = [
   {
-    title: 'Sistem Informasi Booking Rapat',
+    title: 'Mengembangkan Sistem Informasi Booking Rapat',
     desc: 'Aplikasi pemesanan ruang rapat yang dikembangkan saat magang di PT SMART Tbk.',
     tech: ['PHP', 'MySQL', 'Web'],
     year: '2024-2025',
@@ -13,7 +13,7 @@ const projects = [
     link: 'https://github.com/Hzero0736/landing-page-update', // Link ke demo atau kode
   },
   {
-    title: 'Game Edukasi AR Semaphore',
+    title: 'Mengembangkan Game Edukasi AR Semaphore',
     desc: 'Game berbasis Augmented Reality untuk pembelajaran kode semaphore pramuka (Tugas Akhir).',
     tech: ['Unity', 'AR', 'Mobile'],
     year: '2025',
@@ -21,7 +21,7 @@ const projects = [
     link: '#',
   },
   {
-    title: 'Manajemen Laporan Klaim BBM',
+    title: 'Mengembangkan Sistem Informasi Manajemen Laporan Klaim BBM',
     desc: 'Aplikasi pengelolaan klaim bahan bakar untuk efisiensi operasional perusahaan PT SMART Tbk.',
     tech: ['PHP', 'MySQL', 'Web'],
     year: '2025',
@@ -29,7 +29,7 @@ const projects = [
     link: 'https://github.com/Hzero0736/bbm5',
   },
   {
-    title: 'Sistem Inventaris HIMA-TI',
+    title: 'Mengembangkan Sistem Informasi Inventaris HIMA-TI',
     desc: 'Sistem manajemen barang dan aset organisasi mahasiswa.',
     tech: ['PHP', 'MySQL', 'Web'],
     year: '2024',

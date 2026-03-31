@@ -39,7 +39,6 @@ export default function Contact() {
                   <h3 className="text-lg font-bold text-gray-900">Email</h3> {/* Judul lebih gelap */}
                   <a
                     href="mailto:ahmadfatihplh@gmail.com"
-                    // Teks lebih gelap, hover ke warna primary
                     className="text-gray-600 hover:text-primary transition duration-300 font-medium"
                   >
                     ahmadfatihplh@gmail.com

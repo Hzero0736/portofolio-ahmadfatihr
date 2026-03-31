@@ -26,9 +26,8 @@ export default function Navbar() {
     return `${baseClasses} ${
       isActive
         // KELAS AKTIF: Teks Putih, Garis bawah Biru Muda
-        ? `text-white border-${activeColor} font-semibold` 
-        // KELAS TIDAK AKTIF: Teks Putih lembut, garis bawah transparan, dan hover Biru Muda
-        : `text-gray-200 border-transparent hover:text-white hover:border-${activeColor}`
+        ? `text-${activeColor} border-${activeColor} font-semibold` 
+        : `text-gray-200 border-transparent hover:text-blue-300 hover:border-blue-300`
     }`;
   };
 
@@ -46,7 +45,7 @@ export default function Navbar() {
             {/* Logo berwarna Putih dengan hover Biru Muda */}
             <Link 
               href="/" 
-              className={`text-2xl font-bold text-white hover:text-${activeColor} transition duration-300`}>
+              className={`text-2xl font-bold text-${activeColor} hover:text-blue-300 transition duration-300`}>
               Ahmad Fatih R.
             </Link>
           </div>
@@ -74,14 +73,14 @@ export default function Navbar() {
               href="https://linkedin.com/in/ahmadfatihr"
               target="_blank"
               rel="noopener noreferrer"
-              className={`text-white hover:text-${activeColor} transition`}
+              className={`text-${activeColor} hover:text-blue-300 transition`}
               aria-label="LinkedIn"
             >
               <FaLinkedin size={22} />
             </a>
             <a
               href="mailto:ahmadfatihplh@gmail.com"
-              className={`text-white hover:text-${activeColor} transition`}
+              className={`text-${activeColor} hover:text-yellow-300 transition`}
               aria-label="Email"
             >
               <FaEnvelope size={22} />
@@ -89,7 +88,7 @@ export default function Navbar() {
 
             {/* Tombol CTA dengan latar belakang Biru Muda agar menonjol */}
             <a
-              href="/cv-ahmad-fatih.pdf"
+              href="/Ahmad-Fatih-Rahmatullah-CV.pdf"
               download
               className={`bg-${activeColor} text-white-900 px-4 py-2 rounded-lg 
                          hover:bg-blue-300 transition flex items-center space-x-2 

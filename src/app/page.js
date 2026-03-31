@@ -3,11 +3,12 @@
 
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import { FaPhp, FaJsSquare, FaDatabase, FaReact } from 'react-icons/fa';
+import { FaPhp, FaJsSquare, FaDatabase, FaReact, FaMicrosoft } from 'react-icons/fa';
 import { SiAdobeillustrator, SiAdobephotoshop, SiCoreldraw } from 'react-icons/si';
 
 export default function Home() {
   const skills = [
+    { name:'Microsoft Office', icon: <FaMicrosoft size={20} className="text-blue-500" /> },
     { name: 'PHP', icon: <FaPhp size={20} className="text-purple-500" /> },
     { name: 'JavaScript', icon: <FaJsSquare size={20} className="text-yellow-500" /> },
     { name: 'MySQL', icon: <FaDatabase size={20} className="text-blue-500" /> },
@@ -34,13 +35,13 @@ export default function Home() {
             Web Developer & Graphic Designer
           </p>
           <p className="text-text-muted text-lg leading-relaxed mb-8">
-            Lulusan D3 Teknik Informatika yang berfokus pada pengembangan web (PHP, JavaScript) 
+            Lulusan D3 Teknologi Informasi Memiliki kemampuan penggunaan komputer, pengembangan web 
             dan desain grafis, dengan pengalaman membangun sistem informasi dan aplikasi AR.
           </p>
           <div className="flex gap-4 justify-center md:justify-start">
             <Link
               href="/projects"
-              className="bg-primary text-white px-6 py-3 rounded-lg hover:bg-opacity-90 transition shadow-sm">
+              className="text-text-dark px-6 py-3 hover:text-blue-300 hover:border-blue-300">
               Lihat Proyek
             </Link>
             <Link
